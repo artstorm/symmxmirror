@@ -1,11 +1,11 @@
-Symm X Mirror 1.0
-=================
+SymmXMirror 1.01
+================
 LightWave Modeler LScript by Johan Steen.
 
 
 Description
 ===========
-Symm X Mirror automatically corrects symmetry errors in an object by
+SymmXMirror automatically corrects symmetry errors in an object by
 selecting the -x side, flatten it, delete it and then mirror the +x side.
 
 This is an automation of a technique by William 'Proton' Vaughan.
@@ -45,17 +45,19 @@ Contact me through http://www.artstorm.net/
 
 History
 =======
+28 Jun 2008:
+  - Changed the internal name of SymmXMirror to include the prefix JS_.
 17 Feb 2008:
   - Release of version 1.0.
 
 
 Disclaimer / Legal Stuff
 ========================
-Symm X Mirror is freeware. 
+SymmXMirror is freeware. 
 Please do not distribute or re-post this 
 tool without the author's permission.
 
-Symm X Mirror is provided "as is" without 
+SymmXMirror is provided "as is" without 
 warranty of any kind, either express or implied,
 no liability for consequential damages.
 

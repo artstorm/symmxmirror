@@ -1,6 +1,6 @@
 // ******************************
-// Modeler LScript: Symm X Mirror
-// Version: 1.0
+// Modeler LScript: SymmXMirror
+// Version: 1.01
 // Author: Johan Steen
 // Date: 16 Feb 2008
 // Description: Deletes -x and auto mirrors from +x to -X to correct points for symmetry.
@@ -15,7 +15,7 @@
 @version 2.4
 @warnings
 @script modeler
-@name "Symm X Mirror"
+@name "JS_SymmXMirror"
 
 // global values go here
 
@@ -24,7 +24,7 @@ main
     undogroupbegin();
 
     //
-    // Check so symmetry is disabled. (Trick by Daniele Federico)
+    // Check so symmetry is disabled.
     // --------------------------------------------------------------------------------
     selmode(DIRECT);
     editbegin();
@@ -134,5 +134,7 @@ main
 
     undogroupend();
 }
+
+
 
 
