@@ -1,20 +1,20 @@
-// ******************************
-// Modeler LScript: SymmXMirror
-// Version: 1.1
-// Author: Johan Steen
-// Date: 4 Jul 2008
-// Description: Deletes -x and auto mirrors from +x to -X to correct points for symmetry.
-//              Deletes the left side of the geometry and mirrors 
-//              the right side based on the technique of William 'Proton' Vaughan.
-//              Available as PMirror.p plugin.
-//              As PMirror.p isn't available for LW x64, I made this LScript version.
-//
-// http://www.artstorm.net
-//
-// Copyright (c) 2008,  Johan Steen
-// All Rights Reserved.
-// Use is subject to license terms.
-// ********************************
+/*------------------------------------------------------------------------------
+ Modeler LScript: SymmXMirror
+ Version: 1.1
+ Author: Johan Steen
+ Author URI: http://www.artstorm.net/
+ Date: 4 Jul 2008
+ Description: Deletes -x and auto mirrors from +x to -X to correct points for symmetry.
+              Deletes the left side of the geometry and mirrors 
+              the right side based on the technique of William 'Proton' Vaughan.
+              Available as PMirror.p plugin.
+              As PMirror.p isn't available for LW x64, I made this LScript version.
+
+
+ Copyright (c) 2008,  Johan Steen
+ All Rights Reserved.
+ Use is subject to license terms.
+------------------------------------------------------------------------------*/
 
 @version 2.4
 @warnings

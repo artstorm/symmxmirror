@@ -1,70 +1,67 @@
-SymmXMirror 1.1
-===============
-LightWave Modeler LScript by Johan Steen.
+--------------------------------------------------------------------------------
+ SymmXMirror - README
 
+ SymmXMirror automatically corrects symmetry errors in an object by
+ selecting the -x side, flatten it, delete it and then mirror the +x side.
 
-Description
-===========
-SymmXMirror automatically corrects symmetry errors in an object by
-selecting the -x side, flatten it, delete it and then mirror the +x side.
+ Website:      http://www.artstorm.net/plugins/symmxmirror/
+ Project:      http://code.google.com/p/js-lightwave-lscripts/
+ Feeds:        http://code.google.com/p/js-lightwave-lscripts/feeds
+ 
+ Contents:
+ 
+ * Installation
+ * Usage
+ * Source Code
+ * Changelog
+ * Credits
 
-This is an automation of a technique by William 'Proton' Vaughan.
+--------------------------------------------------------------------------------
+ Installation
+ 
+ General installation steps:
 
-It's been available for some years as the plugin PMirror.p, but as
-PMirror is only availble for win32, and I just entered the win64 era, 
-I wrote this LScript version so I got a working tool under LightWave x64.
-This should also work with MacOS Universal Binary.
+ * Copy the JS_SymmXMirror.lsc to LightWave's plug-in folder.
+ * If "Autoscan Plugins"
+   is enabled, just restart LightWave and it's installed.
+ * Else locate the "Add Plugins" button in LightWave and add it manually.
 
+--------------------------------------------------------------------------------
+ Usage
 
+ I'd suggest to add the tool to a convenient spot in your modeler's menu.
+ Then all you have to do is press the button to let the plugin do it's
+ "magic" when the symmetry gets messed up in an object.
 
-Usage
-=====
-My advise is to add the tool to a convenient spot in your modeler's menu.
-Then all you have to do is press the button to let the plugin do it's
-"magic" when the symmetry gets messed up in an object.
+--------------------------------------------------------------------------------
+ Source Code
+ 
+ Download the source code:
+ 
+   http://code.google.com/p/js-lightwave-lscripts/source/checkout
 
+ You can check out the latest trunk or any previous tagged version via svn
+ or explore the repository directly in your browser.
+ 
+ Note that the default checkout path includes all my available LScripts, you
+ might want to browse the repository first to get the path to the specific
+ script's trunk or tag to download if you don't want to get them all.
+ 
+--------------------------------------------------------------------------------
+ Changelog
 
-Parameters
-==========
-* None
+ * v1.1 - 4 Jul 2008:
+   * Added a Progress Monitor when processing with dense high polycount meshes.
+   * The script can now be aborted while the progress monitor runs by pressing ESC.
+ * v1.01 - 28 Jun 2008:
+   * Changed the internal name of SymmXMirror to include the prefix JS_.
+ * v1.0 - 17 Feb 2008:
+   * Release of version 1.0.
 
+--------------------------------------------------------------------------------
+ Credits
 
-Installation
-============
-* Copy the JS_SymmXMirror.lsc to LightWave's plug-in folder.
-* If "Autoscan Plugins" is enabled, just restart LightWave and it's installed.
-
-* Else locate the "Add Plugins" button in LightWave and add it manually.
-
-
-Author
-======
-This tool is written by Johan Steen.
-Contact me through http://www.artstorm.net/
-
-
-History
-=======
-v1.1 - 4 Jul 2008:
-  * Added a Progress Monitor when processing with dense high polycount meshes.
-  * The script can now be aborted while the progress monitor runs by pressing ESC.
-v1.01 - 28 Jun 2008:
-  * Changed the internal name of SymmXMirror to include the prefix JS_.
-v1.0 - 17 Feb 2008:
-  * Release of version 1.0.
-
-
-Disclaimer / Legal Stuff
-========================
-SymmXMirror is freeware. 
-Please do not distribute or re-post this 
-tool without the author's permission.
-
-SymmXMirror is provided "as is" without 
-warranty of any kind, either express or implied,
-no liability for consequential damages.
-
-By installing and or using this software
-you agree to the terms above.
-
-Copyright © 2008 Johan Steen.
+ Johan Steen, http://www.artstorm.net/
+ * Original author
+ 
+ 
