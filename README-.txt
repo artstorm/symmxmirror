@@ -1,5 +1,5 @@
-SymmXMirror 1.01
-================
+SymmXMirror 1.1
+===============
 LightWave Modeler LScript by Johan Steen.
 
 
@@ -26,15 +26,15 @@ Then all you have to do is press the button to let the plugin do it's
 
 Parameters
 ==========
-- None
+* None
 
 
 Installation
 ============
-- Copy the SymmXMirror.lsc to LightWave's plug-in folder.
-- If "Autoscan Plugins" is enabled, just restart LightWave and it's installed.
+* Copy the JS_SymmXMirror.lsc to LightWave's plug-in folder.
+* If "Autoscan Plugins" is enabled, just restart LightWave and it's installed.
 
-- Else locate the "Add Plugins" button in LightWave and add it manually.
+* Else locate the "Add Plugins" button in LightWave and add it manually.
 
 
 Author
@@ -45,10 +45,13 @@ Contact me through http://www.artstorm.net/
 
 History
 =======
-28 Jun 2008:
-  - Changed the internal name of SymmXMirror to include the prefix JS_.
-17 Feb 2008:
-  - Release of version 1.0.
+v1.1 - 4 Jul 2008:
+  * Added a Progress Monitor when processing with dense high polycount meshes.
+  * The script can now be aborted while the progress monitor runs by pressing ESC.
+v1.01 - 28 Jun 2008:
+  * Changed the internal name of SymmXMirror to include the prefix JS_.
+v1.0 - 17 Feb 2008:
+  * Release of version 1.0.
 
 
 Disclaimer / Legal Stuff
