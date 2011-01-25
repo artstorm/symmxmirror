@@ -5,8 +5,8 @@
  selecting the -x side, flatten it, delete it and then mirror the +x side.
 
  Website:      http://www.artstorm.net/plugins/symmxmirror/
- Project:      http://code.google.com/p/js-lightwave-lscripts/
- Feeds:        http://code.google.com/p/js-lightwave-lscripts/feeds
+ Project:      http://code.google.com/p/js-lscripts/
+ Feeds:        http://code.google.com/p/js-lscripts/feeds
  
  Contents:
  
